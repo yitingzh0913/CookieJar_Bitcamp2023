@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}">
+    <title>Find A Recipe</title>
+  </head>
+  <body>
+    <div class="frame-1">
+      <div class="shape-with-text"></div>
+      <div class="navbar">
+        <a href="#">Find a Recipe</a>
+        <a href="#">Add a Recipe</a>
+      </div>
+      <div class="frame-5">
+				{% if count > 0 %}
+        <div class="r1">
+          <div class="frame-4">
+            <div class="rectangle-4"></div>
+            <div class="lorem-ipsum---">{{ recipes[0]['name'] }}</div>
+            <svg class="subtract" width="268" height="165" viewBox="0 0 268 165" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M267.697 0H0V164.711H267.697V0ZM249.802 96.2015L171.929 37.1544L104.753 88.0919L71.2365 62.678L17.895 103.124V146.812H249.802V96.2015ZM127.386 40.6167C127.386 49.5757 117.808 56.8384 105.992 56.8384C94.1767 56.8384 84.5984 49.5757 84.5984 40.6167C84.5984 31.6578 94.1767 24.3951 105.992 24.3951C117.808 24.3951 127.386 31.6578 127.386 40.6167Z" fill="#EEEEEE" />
+            </svg>
+            <div class="tag2">
+              <div class="rectangle-52"></div>
+              <div class="tag4">{{ recipes[0]['servings'] }} Serving</div>
+            </div>
+            <div class="tag1">
+              <div class="rectangle-53"></div>
+              <div class="tag5">{{ recipes[0]['prep_time'] }} Time</div>
+            </div>
+          </div>
+        </div>
+				{% endif %}
+				{% if count > 1 %}
+        <div class="r2">
+          <div class="frame-42">
+            <div class="rectangle-4"></div>
+            <div class="lorem-ipsum---">{{ recipes[1]['name'] }}</div>
+            <svg class="subtract2" width="269" height="165" viewBox="0 0 269 165" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M268.395 0H0.69751V164.711H268.395V0ZM250.5 96.2015L172.626 37.1544L105.451 88.0919L71.934 62.678L18.5925 103.124V146.812H250.5V96.2015ZM128.084 40.6167C128.084 49.5757 118.505 56.8384 106.69 56.8384C94.8742 56.8384 85.2959 49.5757 85.2959 40.6167C85.2959 31.6578 94.8742 24.3951 106.69 24.3951C118.505 24.3951 128.084 31.6578 128.084 40.6167Z" fill="#EEEEEE" />
+            </svg>
+            <div class="tag2">
+              <div class="rectangle-52"></div>
+              <div class="tag4">{{ recipes[1]['servings'] }} Serving</div>
+            </div>
+            <div class="tag1">
+              <div class="rectangle-53"></div>
+              <div class="tag5">{{ recipes[1]['prep_time'] }} Time</div>
+            </div>
+          </div>
+        </div>
+				{% endif %}
+				{% if count > 2 %}
+        <div class="r3">
+          <div class="frame-43">
+            <div class="rectangle-4"></div>
+            <div class="lorem-ipsum---">{{ recipes[2]['name'] }}</div>
+            <svg class="subtract3" width="269" height="165" viewBox="0 0 269 165" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M268.092 0H0.394958V164.711H268.092V0ZM250.197 96.2015L172.324 37.1544L105.148 88.0919L71.6314 62.678L18.29 103.124V146.812H250.197V96.2015ZM127.781 40.6167C127.781 49.5757 118.203 56.8384 106.387 56.8384C94.5717 56.8384 84.9933 49.5757 84.9933 40.6167C84.9933 31.6578 94.5717 24.3951 106.387 24.3951C118.203 24.3951 127.781 31.6578 127.781 40.6167Z" fill="#EEEEEE" />
+            </svg>
+            <div class="tag2">
+              <div class="rectangle-52"></div>
+              <div class="tag4">{{ recipes[2]['servings'] }} Serving</div>
+            </div>
+            <div class="tag1">
+              <div class="rectangle-53"></div>
+              <div class="tag5">{{ recipes[2]['prep_time'] }} Time</div>
+            </div>
+          </div>
+        </div>
+				{% endif %}
+      </div>
+      <div class="filters">
+        <div class="filter">Filter</div>
+        <div class="filter-tag1">
+          <div class="option3">
+            <div class="lorem-ipsum">Asian</div>
+            <div class="checkbox">
+              <div class="frame-3">
+                <div class="boder-rectangle"></div>
+                <svg class="vector-1" width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 3.9375L2.43478 7L8 0" stroke="#6D6D6D" stroke-width="2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="option2">
+            <div class="lorem-ipsum2">Mediterranean</div>
+            <div class="checkbox2">
+              <div class="frame-3">
+                <div class="boder-rectangle"></div>
+                <svg class="vector-12" width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 3.9375L2.43478 7L8 0" stroke="#6D6D6D" stroke-width="2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="option1">
+            <div class="lorem-ipsum3">American</div>
+            <div class="checkbox3">
+              <div class="frame-3">
+                <div class="boder-rectangle"></div>
+                <svg class="vector-13" width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 3.9375L2.43478 7L8 0" stroke="#6D6D6D" stroke-width="2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="cuisine">Cuisine</div>
+        </div>
+      </div>
+      <div class="find-top">
+        <div class="shape-with-text2"></div>
+	        <div class="find-recipe-section">
+	          <img class="find-a-recipe" src="{{ url_for('static', filename='images/find-a-recipe.png') }}" />
+	          <form method="POST">
+							<div class="search">
+		            <div class="input-fields">
+		              <div class="error-message">Name</div>
+		              <div class="box"></div>
+		              <input type=text class="key-field" placeholder="Search..." name="params"/>
+		            </div>
+
+								<input type=image src="{{ url_for('static', filename='images/image-1.png') }}" border=0 alt=submit class="image-1" />
+          	</form>
+					</div>
+        </div>
+      </div>
+      <div class="user"></div>
+      <div class="top-menu">
+        <div class="find-a-recipe2">
+					<a href="#" style="color:#49624b">Find a Recipe</a>
+				</div>
+        <div class="add-a-recipe">
+          <a href="/addRecipe" style="color:#49624b">Add a Recipe</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

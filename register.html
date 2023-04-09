@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/register.css') }}">
+    <style>
+      h1 {text-align: center;}
+    </style>
+  </head>
+  
+  <body>
+    <h1 style="color: #e8ba74">Create An Account</h1>
+		<form method="POST">
+      <div class="row">
+        <div class="col-25">
+          <label for="username">Create a username:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="username" name="username">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="password">Create a password:</label>
+        </div>
+        <div class="col-75">
+          <input type="password" id="password" name="password">
+        </div>
+      </div>
+
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+      
+<!--       <input type="submit" name="submit" value="Submit"><br>
+       -->
+    </form>
+	</body>
+</html>

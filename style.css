@@ -1,0 +1,449 @@
+body {
+	overflow-x: hidden;
+}
+
+.frame-1, .frame-1 * { box-sizing: border-box; }.frame-1 {
+      background: #6a6a6a;
+      width: 1231px; height: 2568px;
+      position: relative;
+      overflow: hidden;
+    }
+ .shape-with-text {
+      background: #ffffff;
+      border-radius: 6px;
+      width: 1231px; height: 2568px;
+      position: absolute; left: 0px;top: 87px;
+    }
+ .frame-5 {
+      display: flex;
+      flex-direction: row;
+      gap: 41px;
+      align-items: flex-end;
+      justify-content: flex-start;
+      position: absolute; left: 313px;top: 823px;
+    }
+ .r1 {
+      flex-shrink: 0;
+      width: 267.7px; height: 264px;
+      position: static;
+    }
+ .frame-4 {
+      width: 267.7px; height: 264px;
+      position: absolute; left: 0px;top: 0px;
+      overflow: hidden;
+    }
+ .rectangle-4 {
+      background: #d9d9d9;
+      width: 268px; height: 264px;
+      position: absolute; left: 0px;top: 0px;
+    }
+ .lorem-ipsum--- {
+      color: #000000;
+      text-align: left;
+      font: 400 18px 'Inter', sans-serif;
+      position: absolute; left: 16px;top: 180px;
+      width: 180px; height: 30.18px;
+    }
+ .subtract {
+      position: absolute; left: 0px;top: 0px;
+      overflow: visible;
+    }
+ .tag3 {
+      width: 69px; height: 23px;
+      position: static;
+    }
+ .rectangle-5 {
+      background: #ffffff;
+      border-radius: 11.5px;
+      width: 69px; height: 23px;
+      position: absolute; left: 170px;top: 225px;
+    }
+ .tag {
+      color: #000000;
+      text-align: left;
+      font: 400 10px 'Inter', sans-serif;
+      position: absolute; left: 177px;top: 230px;
+      width: 50px; height: 16px;
+    }
+ .tag2 {
+      width: 69px; height: 23px;
+      position: static;
+    }
+ .rectangle-52 {
+      background: #ffffff;
+      border-radius: 11.5px;
+      width: 69px; height: 23px;
+      position: absolute; left: 93px;top: 225px;
+    }
+ .tag4 {
+      color: #000000;
+      text-align: left;
+      font: 400 10px 'Inter', sans-serif;
+      position: absolute; left: 100px;top: 230px;
+      width: 50px; height: 16px;
+    }
+ .tag1 {
+      width: 69px; height: 23px;
+      position: static;
+    }
+ .rectangle-53 {
+      background: #ffffff;
+      border-radius: 11.5px;
+      width: 69px; height: 23px;
+      position: absolute; left: 16px;top: 225px;
+    }
+ .tag5 {
+      color: #000000;
+      text-align: left;
+      font: 400 10px 'Inter', sans-serif;
+      position: absolute; left: 23px;top: 230px;
+      width: 50px; height: 16px;
+    }
+ .r2 {
+      flex-shrink: 0;
+      width: 267.7px; height: 264px;
+      position: static;
+    }
+ .frame-42 {
+      width: 267.7px; height: 264px;
+      position: absolute; left: 308.7px;top: 0px;
+      overflow: hidden;
+    }
+ .subtract2 {
+      position: absolute; left: 0px;top: 0px;
+      overflow: visible;
+    }
+ .r3 {
+      flex-shrink: 0;
+      width: 267.7px; height: 264px;
+      position: static;
+    }
+ .frame-43 {
+      width: 267.7px; height: 264px;
+      position: absolute; left: 617.39px;top: 0px;
+      overflow: hidden;
+    }
+ .subtract3 {
+      position: absolute; left: 0px;top: 0px;
+      overflow: visible;
+    }
+ .filters {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute; left: 12px;top: 774px;
+    }
+ .filter {
+      color: #000000;
+      text-align: left;
+      font: 700 36px/32px 'Inter', sans-serif;
+      position: relative;
+      width: 192px; height: 35px;
+    }
+ .filter-tag1 {
+      flex-shrink: 0;
+      width: 185px; height: 131px;
+      position: static;
+    }
+ .option3 {
+      width: 185px; height: 29px;
+      position: static;
+    }
+ .lorem-ipsum {
+      color: #000000;
+      text-align: left;
+      font: 500 13px/32px 'Inter', sans-serif;
+      position: absolute; left: 24px;top: 150px;
+      width: 161px; height: 27px;
+    }
+ .checkbox {
+      border-radius: 4px;
+      width: 24px; height: 24px;
+      position: absolute; left: 0px;top: 155px;
+      overflow: hidden;
+    }
+ .frame-3 {
+      background: var(--primary-primarylight, #f9f9f9);
+      border-radius: 4px;
+      width: 16px; height: 16px;
+      position: absolute; left: 4px;top: 4px;
+      overflow: hidden;
+    }
+ .boder-rectangle {
+      border-radius: 4px;
+  border-style: solid; 
+  border-color: #6d6d6d;
+  border-width: 2px;
+      width: 16px; height: 16px;
+      position: absolute; left: calc(50% - 8px);top: calc(50% - 8px);
+    }
+ .vector-1 {
+      position: absolute; left: calc(50% - 4px);top: calc(50% - 4px);
+      overflow: visible;
+    }
+ .option2 {
+      width: 185px; height: 29px;
+      position: static;
+    }
+ .lorem-ipsum2 {
+      color: #000000;
+      text-align: left;
+      font: 500 13px/32px 'Inter', sans-serif;
+      position: absolute; left: 24px;top: 115px;
+      width: 161px; height: 27px;
+    }
+ .checkbox2 {
+      border-radius: 4px;
+      width: 24px; height: 24px;
+      position: absolute; left: 0px;top: 120px;
+      overflow: hidden;
+    }
+ .vector-12 {
+      position: absolute; left: calc(50% - 4px);top: calc(50% - 4px);
+      overflow: visible;
+    }
+ .option1 {
+      width: 185px; height: 29px;
+      position: static;
+    }
+ .lorem-ipsum3 {
+      color: #000000;
+      text-align: left;
+      font: 500 13px/32px 'Inter', sans-serif;
+      position: absolute; left: 24px;top: 83px;
+      width: 161px; height: 27px;
+    }
+ .checkbox3 {
+      border-radius: 4px;
+      width: 24px; height: 24px;
+      position: absolute; left: 0px;top: 88px;
+      overflow: hidden;
+    }
+ .vector-13 {
+      position: absolute; left: calc(50% - 4px);top: calc(50% - 4px);
+      overflow: visible;
+    }
+ .cuisine {
+      color: #000000;
+      text-align: left;
+      font: 500 24px/32px 'Inter', sans-serif;
+      position: absolute; left: 0px;top: 48px;
+      width: 161px; height: 27px;
+    }
+ .filter-tag2 {
+      flex-shrink: 0;
+      width: 185px; height: 131px;
+      position: static;
+    }
+ .lorem-ipsum4 {
+      color: #000000;
+      text-align: left;
+      font: 500 13px/32px 'Inter', sans-serif;
+      position: absolute; left: 24px;top: 294px;
+      width: 161px; height: 27px;
+    }
+ .checkbox4 {
+      border-radius: 4px;
+      width: 24px; height: 24px;
+      position: absolute; left: 0px;top: 299px;
+      overflow: hidden;
+    }
+ .vector-14 {
+      position: absolute; left: calc(50% - 4px);top: calc(50% - 4px);
+      overflow: visible;
+    }
+ .lorem-ipsum5 {
+      color: #000000;
+      text-align: left;
+      font: 500 13px/32px 'Inter', sans-serif;
+      position: absolute; left: 24px;top: 259px;
+      width: 161px; height: 27px;
+    }
+ .checkbox5 {
+      border-radius: 4px;
+      width: 24px; height: 24px;
+      position: absolute; left: 0px;top: 264px;
+      overflow: hidden;
+    }
+ .vector-15 {
+      position: absolute; left: calc(50% - 4px);top: calc(50% - 4px);
+      overflow: visible;
+    }
+ .lorem-ipsum6 {
+      color: #000000;
+      text-align: left;
+      font: 500 13px/32px 'Inter', sans-serif;
+      position: absolute; left: 24px;top: 227px;
+      width: 161px; height: 27px;
+    }
+ .checkbox6 {
+      border-radius: 4px;
+      width: 24px; height: 24px;
+      position: absolute; left: 0px;top: 232px;
+      overflow: hidden;
+    }
+ .vector-16 {
+      position: absolute; left: calc(50% - 4px);top: calc(50% - 4px);
+      overflow: visible;
+    }
+ .option-2 {
+      color: #000000;
+      text-align: left;
+      font: 500 24px/32px 'Inter', sans-serif;
+      position: absolute; left: 0px;top: 192px;
+      width: 161px; height: 27px;
+    }
+ .find-top {
+      background: #aaaaaa;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      align-items: flex-end;
+      justify-content: flex-start;
+      position: absolute; left: -9px;top: -7px;
+    }
+ .shape-with-text2 {
+      background: #ffffff;
+      border-radius: 6px;
+      flex-shrink: 0;
+      width: 1237px; height: 112px;
+      position: relative;
+    }
+ .find-recipe-section {
+      flex-shrink: 0;
+      width: 100%; height: 632px;
+      position: static;
+    }
+ .find-a-recipe {
+      border-radius: 6px;
+      width: 100%; height: 632px;
+      position: absolute; left: 0px;top: 112px;
+    }
+ .search {
+      width: 527px; height: 65px;
+      position: static;
+    }
+ .input-fields {
+      width: 527px; height: 65px;
+      position: absolute; left: 361px;top: 489px;
+    }
+ .error-message {
+      color: #e71010;
+      text-align: left;
+      font: 400 12px 'Montserrat', sans-serif;
+      opacity: 0.800000011920929;
+      position: absolute; left: 0px;top: 24.92px;
+    }
+ .box {
+      background: #ffffff;
+      border-radius: 4px;
+  border-style: solid; 
+  border-color: #d5d8de;
+  border-width: 1px;
+      width: 527px; height: 65px;
+      position: absolute; left: 0px;top: 0px;
+    }
+ .key-field {
+      color: #323941;
+      text-align: left;
+      font: 400 16px 'Montserrat', sans-serif;
+      opacity: 0.800000011920929;
+      position: absolute; left: 16px;top: 21.67px;
+ 			width: 400px;
+	 		border: 0px;
+ }
+ .value-main {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: center;
+      justify-content: flex-start;
+      height: 28px;
+      position: absolute; left: 17px;top: 26px;
+    }
+ .start-cursor {
+      opacity: 0;
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+ .value-masked {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: center;
+      justify-content: flex-end;
+    flex-shrink: 0;
+      position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+      overflow: hidden;
+    }
+ .mask-layer {
+      flex-shrink: 0;
+      width: 79px; height: 20px;
+      position: static;
+    }
+ .value-field {
+      color: #000000;
+      text-align: left;
+      font: 400 16px 'Montserrat', sans-serif;
+      position: absolute; left: 79px;top: 0px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+    }
+ .mask-box {
+      background: #171717;
+      width: 0.01px; height: 19px;
+      position: absolute; left: 79px;top: 1px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+    }
+ .end-cursor {
+      opacity: 0;
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+ .image-1 {
+      width: 42px; height: 40px;
+      position: absolute; left: 836px;top: 503px;
+    }
+ .user {
+      background: #b9b9b9;
+      width: 60px; height: 60px;
+      position: absolute; left: 1139px;top: 26px;
+    }
+ .top-menu {
+      width: 1176px; height: 62px;
+      position: absolute; left: 23px;top: 25px;
+    }
+ .menu {
+  border-style: solid; 
+  border-color: #000000;
+  border-width: 16px;
+      width: 63px; height: 62px;
+      position: absolute; left: 0px;top: 0px;
+    }
+ .rectangle-3 {
+      position: absolute; left: 0px;top: 0px;
+      overflow: visible;
+    }
+ .group-3 {
+      position: absolute; left: 9.19px;top: 12.92px;
+      overflow: visible;
+    }
+ .find-a-recipe2 {
+      color: #333333;
+      text-align: left;
+      font: 500 24px/32px 'Inter', sans-serif;
+      position: absolute; left: 693px;top: 15px;
+    }
+ .add-a-recipe {
+      color: #333333;
+      text-align: left;
+      font: 500 24px/32px 'Inter', sans-serif;
+      position: absolute; left: 912px;top: 15px;
+    }
